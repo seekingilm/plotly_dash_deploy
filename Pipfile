@@ -7,8 +7,8 @@ name = "pypi"
 pandas = "*"
 plotly = "*"
 openpyxl = "*"
-dash-bootstrap-components = "*"
 gunicorn = "*"
+dash-bootstrap-components = "*"
 
 [dev-packages]
 
