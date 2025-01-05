@@ -466,4 +466,4 @@ def update_graph_12(contents, filename):
  
 
 if __name__ == '__main__':
-    app.run()
+    app.run_server()
