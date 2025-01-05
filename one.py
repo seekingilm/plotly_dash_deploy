@@ -13,7 +13,7 @@ server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(html.H1("Roles vs Event Awareness"), className="text-center") ]),
+        dbc.Col(html.H1("Put in your Excel File to Generate Graphs Dynamically"), className="text-center") ]),
     dbc.Row([
         dbc.Col(dcc.Upload(
             id='upload-data',
