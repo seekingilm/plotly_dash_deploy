@@ -9,11 +9,11 @@ import io
 
 # Initialize the Dash app
 app = Dash(__name__, external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 app.layout = dbc.Container([
     dbc.Row([
-        dbc.Col(html.H1("Roles vs Event Awareness"), className="text-center")
-    ]),
+        dbc.Col(html.H1("Roles vs Event Awareness"), className="text-center") ]),
     dbc.Row([
         dbc.Col(dcc.Upload(
             id='upload-data',
@@ -466,4 +466,4 @@ def update_graph_12(contents, filename):
  
 
 if __name__ == '__main__':
-    app.run_server(debug=True)
+    app.run()
